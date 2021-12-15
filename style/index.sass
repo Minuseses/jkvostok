@@ -1,0 +1,51 @@
+//Переменные
+//Обнуление
+@import './nullstyle';
+// normalize.css (Обнуление и префиксы)
+@import './normalize';
+//css для слайдера
+@import './_chief-slider.scss';
+//Шапка
+@import './header';
+//Блок клавного экрана
+@import './hero';
+//Блок рассказывающий
+@import './about';
+//Блок с преймуществами
+@import './benefits';
+//Блок с планировкай
+@import './layout';
+//Блок с галереей
+@import './gallery';
+//Блок с галереей
+@import './location';
+//Блок с обратной связью
+@import './feedback';
+//Блок с подвалом сайта
+@import './footer';
+//Оверлей
+@import './overlay';
+body
+    display: flex
+    flex-direction: column
+    font-family: 'Inter', sans-serif
+.container
+    max-width: 1664px
+    margin: 0 auto
+// Часто используемые
+.number
+    font-style: normal
+    font-weight: normal
+    font-size: 16px
+    line-height: 24px
+    opacity: 0.6
+.heading
+    font-style: normal
+    font-weight: normal
+    font-size: 32px
+    line-height: 48px
+    text-transform: uppercase
+
+@media (max-width: 1366px)
+    .container
+        max-width: 1206px
